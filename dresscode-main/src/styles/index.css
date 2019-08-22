@@ -1,0 +1,1587 @@
+@charset "UTF-8";
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0; }
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block; }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline; }
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type="checkbox"],
+[type="radio"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block; }
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item; }
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none; }
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none; }
+
+ul {
+  padding-left: 0px;
+  margin: 0px;
+  list-style-type: none; }
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.react-multi-carousel-list {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
+
+li.alice-carousel__stage-item {
+  padding: 15px; }
+
+.alice-carousel__prev-btn {
+  position: absolute;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  top: 0px;
+  left: -40px;
+  margin: auto;
+  bottom: 0px;
+  height: 40px;
+  width: 40px;
+  z-index: 10; }
+
+.stretch {
+  width: 100%; }
+
+.alice-carousel__prev-btn-wrapper, .alice-carousel__next-btn-wrapper {
+  width: 40px;
+  height: 40px;
+  display: block;
+  background: #b1b1b1;
+  color: #fff;
+  border-radius: 50px;
+  -webkit-transition: background-color 0.25s;
+  transition: background-color 0.25s; }
+  .alice-carousel__prev-btn-wrapper:focus, .alice-carousel__next-btn-wrapper:focus {
+    outline: none; }
+  .alice-carousel__prev-btn-wrapper:hover, .alice-carousel__next-btn-wrapper:hover {
+    background-color: #000; }
+  .alice-carousel__prev-btn-wrapper .icon, .alice-carousel__next-btn-wrapper .icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+
+.alice-carousel__next-btn {
+  position: absolute;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  right: -40px;
+  top: 0px;
+  margin: auto;
+  bottom: 0px;
+  height: 40px;
+  width: 40px;
+  z-index: 10; }
+
+textarea {
+  width: 100%;
+  padding: 14px 6px;
+  min-height: 120px;
+  resize: none; }
+
+.underline {
+  text-decoration: underline;
+  color: #b1b1b1;
+  font-weight: 600; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  font-size: 16px; }
+
+a:visited {
+  color: black; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+a:hover {
+  color: #b1b1b1;
+  -webkit-transition: color 0.25s;
+  transition: color 0.25s; }
+
+.icon {
+  font-size: 24px;
+  height: auto; }
+
+p {
+  margin: 0px; }
+
+input {
+  border: none; }
+  input:focus {
+    outline: none; }
+
+button {
+  background: none;
+  border: 1px solid #b1b1b1;
+  cursor: pointer; }
+
+h4, h2 {
+  margin: 0px; }
+
+h6 {
+  margin: 15px 0px; }
+
+img {
+  display: block;
+  margin: 0 auto;
+  min-width: 100%;
+  max-width: 100%;
+  max-height: 100%; }
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 8px;
+  border-radius: 8px;
+  background-color: #f3f0f0; }
+
+::-webkit-scrollbar-thumb {
+  background-color: #b1b1b1;
+  border-radius: 8px; }
+
+.row {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10%;
+  margin-right: 10%; }
+
+.module {
+  margin-bottom: 60px;
+  margin-top: 60px; }
+
+.row-stretch {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-left: 10%;
+  padding-right: 10%; }
+
+.text-center {
+  text-align: center; }
+
+.add-margin {
+  margin-top: 90px; }
+
+.space-after-header::before {
+  content: "";
+  height: 90px;
+  width: 100%;
+  display: block; }
+
+.stretch-to-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 100vh; }
+
+.inline-list {
+  display: inline-block; }
+  .inline-list li {
+    display: inline-block; }
+
+.primary-button {
+  padding: 5px 14px;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s; }
+  .primary-button:hover {
+    background: #f3f0f0;
+    border-color: #000; }
+
+.primary-button--big {
+  display: block;
+  margin: auto;
+  min-width: 150px;
+  min-height: 45px; }
+
+header {
+  position: fixed;
+  z-index: 100;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background: #fff; }
+
+.header-top-bar {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #b1b1b1;
+  padding-bottom: 10px; }
+
+.bar-left-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%; }
+
+.logo-container {
+  font-size: 42px;
+  font-family: "Luckiest Guy", cursive;
+  border: 3px solid #000; }
+  .logo-container .logo-container__logo {
+    padding: 0px 14px; }
+    .logo-container .logo-container__logo:hover {
+      color: #000; }
+
+.search-bar {
+  margin-left: 60px;
+  margin-right: 20px;
+  width: 100%;
+  min-width: 260px;
+  max-width: 700px;
+  position: relative; }
+  .search-bar form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 6px 12px;
+    border: 1px solid #b1b1b1; }
+    .search-bar form .search-bar__search-input-container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      width: 83%; }
+      .search-bar form .search-bar__search-input-container input {
+        width: 100%;
+        margin: 0px 8px;
+        padding: 8px 0px; }
+
+.header-controls {
+  position: relative; }
+
+.header-controls__list #notification-button .icon {
+  vertical-align: sub;
+  cursor: pointer; }
+.header-controls__list .notification-number {
+  margin-left: -3px;
+  font-size: 15px;
+  color: #ff0d0d;
+  font-weight: bold; }
+.header-controls__list li {
+  padding: 4px 6px;
+  margin-left: 12px; }
+  .header-controls__list li a {
+    font-weight: 500; }
+
+.typing-proposals {
+  display: none;
+  position: absolute;
+  margin-top: 10px;
+  background-color: #f3f0f0;
+  width: 100%;
+  padding: 12px;
+  z-index: 10;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid #b1b1b1; }
+  .typing-proposals li {
+    margin-top: 14px;
+    margin-bottom: 4px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #b1b1b1; }
+    .typing-proposals li a {
+      padding: 2px 6px;
+      font-size: 18px; }
+
+.cards-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 4%; }
+  .cards-container .card {
+    border: 1px solid #b1b1b1;
+    -webkit-transition: background-color 0.25s;
+    transition: background-color 0.25s;
+    padding: 20px 12px; }
+    .cards-container .card:hover {
+      -webkit-box-shadow: 6px 5px 8px 1px #f3f0f0;
+              box-shadow: 6px 5px 8px 1px #f3f0f0; }
+    .cards-container .card .card__card-content {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .cards-container .card .card__card-content .icon {
+        font-size: 28px;
+        margin-right: 12px; }
+      .cards-container .card .card__card-content p {
+        margin-bottom: 6px; }
+      .cards-container .card .card__card-content .card__link::after {
+        content: " →"; }
+
+.header-bottom-links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .header-bottom-links ul a {
+    font-weight: 500; }
+
+.category-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .category-container > div {
+    max-width: 175px;
+    padding: 10px; }
+  .category-container p {
+    text-align: center;
+    margin-top: 8px; }
+
+.items-list__item-description {
+  padding: 4px;
+  font-size: 14px; }
+
+.items-list__top-section {
+  margin-top: 20px;
+  padding: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.items-list__list-item {
+  padding: 0px 15px; }
+
+.items-list__image {
+  padding: 15px;
+  min-width: 190px;
+  height: 225px;
+  max-width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center; }
+
+.items-list__bottom-section {
+  margin-top: 0px;
+  padding: 0px 4px 4px 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.item-icon {
+  cursor: pointer; }
+  .item-icon:hover {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2); }
+
+.grid-items-layout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .grid-items-layout .items-list__list-item {
+    max-width: 250px;
+    margin-bottom: 20px; }
+
+.baner {
+  min-height: 400px;
+  max-height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .baner .baner-link-container {
+    display: inline-block;
+    margin-top: 30px; }
+    .baner .baner-link-container a {
+      color: white;
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      border-radius: 2px;
+      background: #0000ff;
+      padding: 22px 40px;
+      display: inline-block;
+      -webkit-transition: background-color 0.25s;
+      transition: background-color 0.25s; }
+      .baner .baner-link-container a:hover {
+        background-color: #007aff; }
+  .baner h1 {
+    color: white;
+    width: 65%;
+    margin: auto;
+    font-size: 42px; }
+
+#shop-baner {
+  background-image: url("../assets/images/baners/shop-baner.jpg"); }
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  footer .footer-social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    footer .footer-social .icon {
+      font-size: 16px; }
+    footer .footer-social li {
+      margin-right: 20px; }
+    footer .footer-social p {
+      margin-left: 20px;
+      font-weight: 500; }
+  footer .footer-links li {
+    margin-right: 10px; }
+    footer .footer-links li a {
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 4px 8px; }
+
+.form-container {
+  margin: 140px auto 60px;
+  min-height: 55vh; }
+
+.auth-form {
+  max-width: 385px;
+  min-width: 280px;
+  margin: 30px auto; }
+  .auth-form input {
+    display: block;
+    border: 1px solid #b1b1b1;
+    padding: 14px 6px;
+    border-radius: 2px;
+    width: 100%;
+    margin: 8px 0px; }
+    .auth-form input:focus {
+      border-color: #000 !important; }
+
+.sell-form {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto; }
+  .sell-form input {
+    display: block;
+    border: 1px solid #b1b1b1;
+    padding: 14px 6px;
+    border-radius: 2px;
+    width: 100%;
+    margin: 8px 0px; }
+    .sell-form input:focus {
+      border-color: #000 !important; }
+
+.input-container {
+  margin: 26px 0px; }
+
+label, .label-style {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #b1b1b1; }
+  label.required::after, .required.label-style::after {
+    content: "*";
+    margin-left: 3px;
+    color: #d0021b;
+    font-size: 16px; }
+
+.register-info {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 14px;
+  line-height: 24px; }
+
+.error {
+  color: #f91d1d;
+  font-size: 13px;
+  font-weight: 600; }
+  .error::before {
+    content: "error: "; }
+
+.loader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: auto; }
+
+.profile .loader, .signup-page .loader, .signin-page .loader {
+  height: 70vh; }
+
+.loader-container {
+  max-width: 120px;
+  max-height: 120px;
+  min-width: 80px;
+  min-height: 80px; }
+
+.profile {
+  display: grid;
+  grid-template-columns: 200px auto;
+  margin-top: 130px;
+  margin-bottom: 40px; }
+
+.profile-navigation {
+  margin-top: 40px; }
+
+.message {
+  text-align: center;
+  font-size: 20px;
+  border-radius: 4px;
+  font-weight: 600;
+  line-height: 45px;
+  height: 50px;
+  background: #f3f0f0;
+  margin-bottom: 20px; }
+
+.clothes-block {
+  margin-top: 40px; }
+
+.profile-links li {
+  margin-bottom: 20px; }
+.profile-links a {
+  font-size: 20px;
+  color: #b1b1b1;
+  position: relative;
+  padding-bottom: 4px; }
+  .profile-links a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 0;
+    height: 1px;
+    background-color: #9b9b9b;
+    -webkit-transition: width 300ms ease;
+    transition: width 300ms ease; }
+  .profile-links a:hover::after {
+    width: 100%; }
+.profile-links .selected-profile-link {
+  color: #000; }
+
+.edit-form {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-row-gap: 30px; }
+  .edit-form .input-container {
+    margin: 0px; }
+    .edit-form .input-container input {
+      display: block;
+      border: 1px solid #b1b1b1;
+      padding: 14px 6px;
+      border-radius: 2px;
+      width: 85%;
+      margin: 8px 0px; }
+      .edit-form .input-container input:focus {
+        border-color: #000 !important; }
+
+.disabled-input-text {
+  padding: 14px 6px 14px 0px;
+  border-radius: 2px;
+  width: 85%;
+  margin: 8px 0px;
+  color: #b1b1b1; }
+
+.user-settings,
+.user-clothes,
+.profile-messages,
+.chat-page,
+.signin-page,
+.user-page,
+.shop-page,
+.not-found-page {
+  min-height: 100vh; }
+
+.profile-clothes .items-list__image {
+  max-width: 280px;
+  margin: auto; }
+  .profile-clothes .items-list__image img {
+    height: 100%;
+    width: 100%; }
+.profile-clothes .primary-button {
+  margin: 20px auto;
+  width: 90%; }
+
+.clothes-item-page .clothes-item {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+.clothes-item-page .clothes-item-description {
+  min-width: 26vw;
+  max-width: 33vw; }
+.clothes-item-page .clothes-item-description-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  line-height: 30px; }
+.clothes-item-page .clothes-item-image {
+  max-width: 500px;
+  max-height: 600px;
+  margin-left: auto;
+  margin-right: auto; }
+.clothes-item-page .clothes-item-description-bottom {
+  margin-top: 20px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #f3f0f0; }
+.clothes-item-page .clothes-item-user-info {
+  margin-top: 30px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #f3f0f0; }
+  .clothes-item-page .clothes-item-user-info .primary-button {
+    margin-top: 30px; }
+  .clothes-item-page .clothes-item-user-info .clothes-item-user-details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .clothes-item-page .clothes-item-user-info .clothes-item-end {
+    margin-top: 20px; }
+    .clothes-item-page .clothes-item-user-info .clothes-item-end p {
+      line-height: 24px; }
+
+.comments {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+  .comments .post-comment-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 10px 0px 24px 0px; }
+  .comments textarea {
+    margin-right: 10px;
+    min-height: 90px; }
+  .comments .comments-wall {
+    padding-bottom: 100px; }
+    .comments .comments-wall .comment {
+      background: #fbfbfb;
+      margin-top: 36px;
+      padding: 30px 20px;
+      -webkit-box-shadow: 3px 5px 6px 3px #efefef;
+              box-shadow: 3px 5px 6px 3px #efefef; }
+    .comments .comments-wall p {
+      font-size: 14px; }
+  .comments .comment-details {
+    margin-bottom: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .comments .comment-details a {
+      font-size: 18px;
+      font-weight: 600; }
+    .comments .comment-details span {
+      font-size: 14px; }
+
+.write-message-container {
+  margin-top: 20px; }
+  .write-message-container textarea {
+    margin-top: 8px; }
+
+.write-message-container .primary-button {
+  margin-bottom: 20px; }
+
+.chat-message {
+  padding-top: 16px;
+  font-size: 18px;
+  margin-top: 40px;
+  background: #f3f0f0;
+  margin-bottom: 40px;
+  padding-right: 40px;
+  border-radius: 4px;
+  -webkit-box-shadow: 3px 5px 6px 3px #efefef;
+          box-shadow: 3px 5px 6px 3px #efefef; }
+  .chat-message .chat-message-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .chat-message .chat-message-text {
+    padding: 40px 0px 40px 40px; }
+  .chat-message .chat-message-messager {
+    margin-left: 40px; }
+  .chat-message a {
+    width: 100%;
+    margin-right: 40px; }
+  .chat-message a:hover {
+    color: black; }
+  .chat-message .primary-button {
+    border-color: black; }
+
+.chat-message-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .chat-message-top .chat-message-messager {
+    width: auto; }
+
+.profile-chat .write-message-container .primary-button {
+  margin-top: 30px; }
+
+.user-info {
+  margin-top: 40px;
+  line-height: 22px;
+  max-width: 300px; }
+  .user-info > div > .primary-button {
+    margin-top: 20px; }
+
+.user-clothes-container {
+  margin-bottom: 40px;
+  margin-top: 40px; }
+  .user-clothes-container > h4 {
+    margin: 20px auto 50px;
+    text-align: center; }
+
+.user-clothes-list {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .user-clothes-list .items-list__list-item {
+    width: 20%;
+    min-width: 260px; }
+
+.small-message {
+  text-align: right;
+  background: #f3f3f3;
+  padding: 14px; }
+
+.notifications-list {
+  right: 20px;
+  min-height: 200px;
+  max-height: 600px;
+  height: 60vh;
+  max-width: 420px;
+  min-width: 300px;
+  position: absolute;
+  overflow: auto;
+  right: 0; }
+  .notifications-list .chat-message {
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 4px;
+    background: #f3f0f0;
+    margin-bottom: 4px;
+    padding-top: 16px;
+    padding-right: 20px;
+    border-radius: 4px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    border: 1px solid #000; }
+    .notifications-list .chat-message .chat-message-messager {
+      margin-left: 20px; }
+    .notifications-list .chat-message .chat-message-top {
+      font-size: 14px; }
+    .notifications-list .chat-message .chat-message-text {
+      padding: 14px 0px 14px 20px;
+      font-size: 16px; }
+
+li#notification-button {
+  padding-right: 0px;
+  text-align: right; }
+
+.shop-container {
+  display: grid;
+  grid-template-columns: 250px auto;
+  grid-column-gap: 30px;
+  margin-top: 35px;
+  margin-bottom: 0px; }
+  .shop-container .shop-items {
+    margin-top: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    .shop-container .shop-items .items-list__list-item {
+      width: 32%;
+      min-width: 215px;
+      max-width: 350px; }
+  .shop-container .filters {
+    border-top: 1px solid #f3f0f0; }
+  .shop-container .filter .input-container {
+    margin-bottom: 12px;
+    margin-top: 12px; }
+  .shop-container .filter .input-block {
+    margin: 0px 12px; }
+  .shop-container .filter input {
+    width: 100%;
+    padding: 10px 6px 10px 6px;
+    margin-top: 10px;
+    border: 1px solid #f3f0f0;
+    border-radius: 4px; }
+    .shop-container .filter input:focus {
+      border-color: #000 !important; }
+  .shop-container .filter .select {
+    margin: 24px 0px 10px; }
+  .shop-container .filter .select > div {
+    margin-top: 10px; }
+  .shop-container .filter .multiple-filters-in-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .shop-container .filter .multiple-filters-in-row .input-container:first-child {
+      margin-right: 20px; }
+
+.link-style {
+  font-weight: 600;
+  cursor: pointer; }
+  .link-style:hover {
+    color: #b1b1b1; }
+
+.not-found-block {
+  background-image: url("../assets/images/baners/page-not-found.jpg");
+  max-height: 2400px;
+  max-width: 100%;
+  height: 100%;
+  margin-top: 16px; }
+  .not-found-block h4 {
+    display: block;
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #fff; }
+  .not-found-block a {
+    color: #b1b1b1;
+    font-size: 18px;
+    padding: 4px; }
+    .not-found-block a:hover {
+      color: #fff;
+      border-bottom: 1px solid #fff; }
+
+.mobile-search-expander {
+  display: none; }
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .shop-container .shop-items {
+    margin-top: 0px; }
+
+  .shop-container .shop-items .items-list__list-item {
+    width: 50%;
+    min-width: 250px;
+    max-width: 350px;
+    margin-bottom: 20px; }
+
+  .user-clothes-list .items-list__list-item {
+    width: 25%;
+    min-width: unset; }
+
+  .grid-items-layout .items-list__list-item {
+    width: 33%;
+    max-width: unset; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .shop-container {
+    grid-template-columns: 100%;
+    margin-bottom: 40px; }
+
+  .shop-container .filter .multiple-filters-in-row {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start; }
+
+  .multiple-filters-in-row .input-container {
+    width: 50%; }
+
+  .shop-container .shop-items {
+    margin-top: 0px; }
+
+  .shop-container .shop-items .items-list__list-item {
+    min-width: 200px; }
+
+  .clothes-item-page .clothes-item-image {
+    width: 50%; }
+
+  .user-clothes-list .items-list__list-item {
+    width: 33%;
+    min-width: unset; }
+
+  .grid-items-layout .items-list__list-item {
+    width: 50%;
+    max-width: unset; }
+
+  .header-top-bar.row-stretch {
+    padding-left: 5%;
+    padding-right: 5%; }
+
+  .search-bar {
+    margin-left: 30px;
+    margin-right: 10px; }
+
+  .bar-left-side {
+    -ms-flex-preferred-size: 57%;
+        flex-basis: 57%; } }
+@media (min-width: 576px) and (max-width: 767px) {
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    footer .footer-social {
+      margin-top: 20px; }
+
+  .baner h1 {
+    width: 100%; }
+
+  .baner {
+    min-height: 340px; }
+
+  .cards-container {
+    grid-template-columns: 1fr;
+    grid-row-gap: 15px; }
+
+  .shop-container {
+    grid-template-columns: 100%;
+    margin-bottom: 40px; }
+
+  .shop-container .filter .multiple-filters-in-row {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start; }
+
+  .multiple-filters-in-row .input-container {
+    width: 50%; }
+
+  .shop-container .shop-items .items-list__list-item {
+    width: 50%;
+    margin-bottom: 20px; }
+
+  .clothes-item-page .clothes-item {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+
+  .clothes-item-page .clothes-item-description {
+    max-width: 100%;
+    width: 100%; }
+
+  .comments .comments-wall {
+    padding-bottom: 10px; }
+
+  .clothes-item-page .clothes-item-description-top {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+    .clothes-item-page .clothes-item-description-top > div {
+      margin-right: 40px; }
+
+  .user-clothes-list .items-list__list-item {
+    width: 50%;
+    margin-bottom: 30px;
+    min-width: unset; }
+
+  .profile {
+    grid-template-columns: 100%;
+    margin-top: 20px;
+    grid-row-gap: 30px;
+    margin-bottom: 40px; }
+    .profile .profile-links {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+
+  .grid-items-layout .items-list__list-item {
+    width: 50%;
+    max-width: unset; }
+
+  .header-top-bar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+
+  .space-after-header::before {
+    height: 0px; }
+
+  .header-controls {
+    margin-top: 12px; }
+
+  header {
+    position: static; }
+
+  .form-container {
+    margin-top: 40px; } }
+@media (max-width: 575px) {
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    footer .footer-social {
+      margin-top: 20px;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      footer .footer-social .icon {
+        font-size: 26px; }
+      footer .footer-social p {
+        margin-top: 20px;
+        margin-left: 0px; }
+    footer .footer-links .inline-list {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      footer .footer-links .inline-list li {
+        margin: 4px; }
+
+  .header-bottom-links ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    .header-bottom-links ul li {
+      margin: 12px 9px; }
+
+  .baner h1 {
+    width: 100%;
+    font-size: 36px; }
+
+  .baner {
+    min-height: 300px; }
+    .baner h1 {
+      font-size: 32px; }
+
+  .row {
+    margin-left: 5%;
+    margin-right: 5%; }
+
+  .row-stretch {
+    padding-left: 5%;
+    padding-right: 5%; }
+
+  .alice-carousel__prev-btn {
+    left: -8px; }
+
+  .alice-carousel__next-btn {
+    right: -8px; }
+
+  .cards-container {
+    grid-template-columns: 1fr;
+    grid-row-gap: 15px; }
+
+  .category-container > div {
+    max-width: 130px; }
+
+  .shop-container {
+    grid-template-columns: 100%;
+    margin-bottom: 40px; }
+
+  .shop-container .filter .multiple-filters-in-row {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start; }
+
+  .multiple-filters-in-row .input-container {
+    width: 50%; }
+
+  .shop-container .shop-items .items-list__list-item {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .clothes-item-page .clothes-item {
+    margin-top: 10px;
+    margin-bottom: 20px; }
+
+  .clothes-item-page .clothes-item-description {
+    max-width: 100%;
+    width: 100%; }
+
+  .comments .comments-wall {
+    padding-bottom: 10px; }
+
+  .clothes-item-page .clothes-item-description-top {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+    .clothes-item-page .clothes-item-description-top > div {
+      margin-right: 40px; }
+
+  .comments .comment-details span {
+    margin-left: 8px;
+    text-align: right; }
+
+  .user-clothes-container > h4 {
+    margin-bottom: 0px; }
+
+  .user-clothes-list .items-list__list-item {
+    width: 100%;
+    margin-bottom: 30px;
+    min-width: unset; }
+
+  .user-clothes-list .items-list__image {
+    margin: auto;
+    height: 260px; }
+
+  .profile {
+    grid-template-columns: 100%;
+    margin-top: 20px;
+    grid-row-gap: 30px;
+    margin-bottom: 40px; }
+    .profile .profile-links {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+      .profile .profile-links li {
+        margin-right: 12px; }
+
+  .grid-items-layout .items-list__list-item {
+    width: 100%;
+    max-width: unset; }
+
+  .chat-message {
+    padding-top: 8px;
+    padding-right: 8px; }
+
+  .chat-message .chat-message-messager {
+    margin-left: 8px; }
+
+  .chat-message .chat-message-text {
+    padding: 30px 0px 20px 8px; }
+
+  .space-after-header::before {
+    height: 0px; }
+
+  .header-top-bar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+
+  .search-bar {
+    margin-left: 15px;
+    margin-right: 0px;
+    min-width: 200px; }
+
+  .header-controls {
+    margin-top: 12px; }
+
+  header {
+    position: static; }
+
+  .form-container {
+    margin-top: 40px; } }

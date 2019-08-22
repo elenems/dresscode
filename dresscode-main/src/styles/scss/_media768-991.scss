@@ -1,0 +1,42 @@
+@media (min-width: 768px) and (max-width: 991px) {
+  .shop-container {
+    grid-template-columns: 100%;
+    margin-bottom: 40px;
+  }
+  .shop-container .filter .multiple-filters-in-row {
+    justify-content: flex-start;
+  }
+  .multiple-filters-in-row .input-container {
+    width: 50%;
+  }
+  .shop-container .shop-items {
+    margin-top: 0px;
+  }
+  .shop-container .shop-items .items-list__list-item {
+    min-width: 200px;
+  }
+  .clothes-item-page .clothes-item-image {
+    width: 50%;
+  }
+  .user-clothes-list .items-list__list-item {
+    width: 33%;
+    min-width: unset;
+  }
+  .grid-items-layout {
+    .items-list__list-item {
+      width: 50%;
+      max-width: unset;
+    }
+  }
+  .header-top-bar.row-stretch {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .search-bar {
+    margin-left: 30px;
+    margin-right: 10px;
+  }
+  .bar-left-side {
+    flex-basis: 57%;
+  }
+}

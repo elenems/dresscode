@@ -1,0 +1,178 @@
+@media (max-width: 575px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+    .footer-social {
+      margin-top: 20px;
+      flex-direction: column;
+      align-items: center;
+      .icon {
+        font-size: 26px;
+      }
+      p {
+        margin-top: 20px;
+        margin-left: 0px;
+      }
+    }
+    .footer-links {
+      .inline-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        li {
+          margin: 4px;
+        }
+      }
+    }
+  }
+
+  .header-bottom-links ul {
+    justify-content: center;
+    flex-wrap: wrap;
+    li {
+      margin: 12px 9px;
+    }
+  }
+
+  .baner h1 {
+    width: 100%;
+    font-size: 36px;
+  }
+  .baner {
+    min-height: 300px;
+    h1 {
+      font-size: 32px;
+    }
+  }
+  .row {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .row-stretch {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .alice-carousel__prev-btn {
+    left: -8px;
+  }
+
+  .alice-carousel__next-btn {
+    right: -8px;
+  }
+
+  .cards-container {
+    grid-template-columns: 1fr;
+    grid-row-gap: 15px;
+  }
+  .category-container > div {
+    max-width: 130px;
+  }
+
+  .shop-container {
+    grid-template-columns: 100%;
+    margin-bottom: 40px;
+  }
+  .shop-container .filter .multiple-filters-in-row {
+    justify-content: flex-start;
+  }
+  .multiple-filters-in-row .input-container {
+    width: 50%;
+  }
+  .shop-container .shop-items .items-list__list-item {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .clothes-item-page .clothes-item {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .clothes-item-page .clothes-item-description {
+    max-width: 100%;
+    width: 100%;
+  }
+  .comments .comments-wall {
+    padding-bottom: 10px;
+  }
+  .clothes-item-page .clothes-item-description-top {
+    justify-content: flex-start;
+    align-items: flex-start;
+    & > div {
+      margin-right: 40px;
+    }
+  }
+  .comments .comment-details span {
+    margin-left: 8px;
+    text-align: right;
+  }
+
+  .user-clothes-container > h4 {
+    margin-bottom: 0px;
+  }
+
+  .user-clothes-list .items-list__list-item {
+    width: 100%;
+    margin-bottom: 30px;
+    min-width: unset;
+  }
+
+  .user-clothes-list .items-list__image {
+    margin: auto;
+    height: 260px;
+  }
+  .profile {
+    grid-template-columns: 100%;
+    margin-top: 20px;
+    grid-row-gap: 30px;
+    margin-bottom: 40px;
+    .profile-links {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      li {
+        margin-right: 12px;
+      }
+    }
+  }
+  .grid-items-layout {
+    .items-list__list-item {
+      width: 100%;
+      max-width: unset;
+    }
+  }
+  .chat-message {
+    padding-top: 8px;
+    padding-right: 8px;
+  }
+  .chat-message .chat-message-messager {
+    margin-left: 8px;
+  }
+  .chat-message .chat-message-text {
+    padding: 30px 0px 20px 8px;
+  }
+
+  .space-after-header::before {
+    height: 0px;
+  }
+  .header-top-bar {
+    flex-direction: column;
+  }
+  .search-bar {
+    margin-left: 15px;
+    margin-right: 0px;
+    min-width: 200px;
+  }
+  .header-controls {
+    margin-top: 12px;
+  }
+  header {
+    position: static;
+  }
+  .form-container{
+    margin-top: 40px;
+  }
+}

@@ -1,0 +1,150 @@
+ul {
+  padding-left: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.react-multi-carousel-list{
+  align-items: flex-start;
+}
+
+li.alice-carousel__stage-item {
+  padding: 15px;
+}
+
+.alice-carousel__prev-btn {
+  position: absolute;
+  display: flex!important;
+  justify-content: flex-start;
+  top: 0px;
+  left:-40px;
+  margin: auto;
+  bottom: 0px;
+  height: 40px;
+  width: 40px;
+  z-index: 10;
+}
+
+.stretch{
+  width:100%;
+}
+.alice-carousel__prev-btn-wrapper , .alice-carousel__next-btn-wrapper {
+  width: 40px;
+  height: 40px;
+  display: block;
+  background: $color-primary-accent;
+  color: $color-primary-background;
+  &:focus{
+    outline: none;
+  }
+  border-radius: 50px;
+  transition:background-color 0.25s;
+  &:hover{
+    background-color: $color-primary-dark;
+  }
+  .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+}
+
+.alice-carousel__next-btn {
+  position: absolute;
+  display: flex!important;
+  justify-content: flex-end;
+  right: -40px;
+  top: 0px;
+  margin: auto;
+  bottom: 0px;
+  height: 40px;
+  width: 40px;
+  z-index: 10;
+}
+
+textarea {
+  width: 100%;
+  padding: 14px 6px;
+  min-height: 120px;
+  resize: none;
+}
+
+.underline{
+  text-decoration: underline;
+  color:$color-primary-accent;
+  font-weight: 600;
+}
+
+body {
+  font-family: $font-roboto;
+  color: $color-primary-dark;
+  font-size: 16px;
+}
+
+a:visited {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: $color-primary-dark;
+}
+
+a:hover {
+  color: $color-primary-accent;
+  transition: color 0.25s;
+}
+
+.icon {
+  font-size: $icon-size;
+  height: auto;
+}
+
+p{
+  margin: 0px;
+}
+
+input{
+  border:none;
+  &:focus{
+    outline:none;
+  }
+}
+
+button {
+  background: none;
+  border:1px solid $color-primary-accent;
+  cursor: pointer;
+}
+h4, h2{
+  margin: 0px;
+}
+h6{
+  margin: 15px 0px;
+}
+img{
+  display: block;
+    margin: 0 auto;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 8px;
+  border-radius: 8px;
+  background-color: $color-primary-light;
+}
+
+
+
+::-webkit-scrollbar-thumb {
+  background-color: $color-primary-accent;
+  border-radius: 8px;
+}

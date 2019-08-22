@@ -1,0 +1,90 @@
+@media (min-width: 576px) and (max-width: 767px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+    .footer-social {
+      margin-top: 20px;
+    }
+  }
+
+  .baner h1 {
+    width: 100%;
+  }
+  .baner {
+    min-height: 340px;
+  }
+  .cards-container {
+    grid-template-columns: 1fr;
+    grid-row-gap: 15px;
+  }
+
+  .shop-container {
+    grid-template-columns: 100%;
+    margin-bottom: 40px;
+  }
+  .shop-container .filter .multiple-filters-in-row {
+    justify-content: flex-start;
+  }
+  .multiple-filters-in-row .input-container {
+    width: 50%;
+  }
+  .shop-container .shop-items .items-list__list-item {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  .clothes-item-page .clothes-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .clothes-item-page .clothes-item-description {
+    max-width: 100%;
+    width: 100%;
+  }
+  .comments .comments-wall {
+    padding-bottom: 10px;
+  }
+  .clothes-item-page .clothes-item-description-top {
+    justify-content: flex-start;
+    align-items: flex-start;
+    & > div {
+      margin-right: 40px;
+    }
+  }
+  .user-clothes-list .items-list__list-item {
+    width: 50%;
+    margin-bottom: 30px;
+    min-width: unset;
+  }
+  .profile {
+    grid-template-columns: 100%;
+    margin-top: 20px;
+    grid-row-gap: 30px;
+    margin-bottom: 40px;
+    .profile-links {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  .grid-items-layout {
+    .items-list__list-item {
+      width: 50%;
+      max-width: unset;
+    }
+  }
+  .header-top-bar {
+    flex-direction: column;
+  }
+  .space-after-header::before {
+    height: 0px;
+  }
+  .header-controls {
+    margin-top: 12px;
+  }
+  header {
+    position: static;
+  }
+
+  .form-container{
+    margin-top: 40px;
+  }
+}

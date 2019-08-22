@@ -1,0 +1,21 @@
+@media (min-width: 992px) and (max-width: 1200px) {
+  .shop-container .shop-items {
+    margin-top: 0px;
+  }
+  .shop-container .shop-items .items-list__list-item {
+    width: 50%;
+    min-width: 250px;
+    max-width: 350px;
+    margin-bottom: 20px;
+  }
+  .user-clothes-list .items-list__list-item {
+    width: 25%;
+    min-width: unset;
+  }
+  .grid-items-layout {
+    .items-list__list-item {
+      width: 33%;
+      max-width: unset;
+    }
+  }
+}
