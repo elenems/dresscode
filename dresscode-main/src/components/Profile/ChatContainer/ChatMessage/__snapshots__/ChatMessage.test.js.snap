@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChatMessage Matches snapshot 1`] = `
+"<div style={{...}} className=\\"chat-message\\">
+  <div className=\\"chat-message-top\\">
+    <Link className=\\"chat-message-messager\\" to=\\"/users/sender\\">
+      sender
+    </Link>
+    <span>
+      Thu Oct 10 2019 00:00:00
+    </span>
+  </div>
+  <div className=\\"chat-message-container\\">
+    <p className=\\"chat-message-text\\">
+      Message text
+    </p>
+  </div>
+</div>"
+`;

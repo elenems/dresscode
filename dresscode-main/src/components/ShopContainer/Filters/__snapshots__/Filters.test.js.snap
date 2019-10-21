@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filters Matches snapshot 1`] = `
+"<div className=\\"filters\\">
+  <div className=\\"filter\\">
+    <div className=\\"input-block\\">
+      <Memo(TextInput) handleChange={[undefined]} type=\\"text\\" place=\\"Clothes brand\\" value=\\"Adidas\\" name=\\"Brand\\" />
+    </div>
+    <div className=\\"input-block\\">
+      <Memo(Select) label=\\"Choose a condition\\" value={[undefined]} handleChange={[undefined]} options={{...}} />
+    </div>
+    <div className=\\"input-block\\">
+      <div className=\\"multiple-filters-in-row\\">
+        <Memo(TextInput) handleChange={[undefined]} type=\\"text\\" place=\\"$0\\" value={[undefined]} name=\\"From\\" />
+        <Memo(TextInput) handleChange={[undefined]} type=\\"text\\" place=\\"$500\\" value={[undefined]} name=\\"To\\" />
+      </div>
+    </div>
+    <div className=\\"input-block\\">
+      <Memo(TextInput) handleChange={[undefined]} type=\\"text\\" place=\\"Clothes size\\" value={[undefined]} name=\\"Size\\" />
+    </div>
+  </div>
+</div>"
+`;

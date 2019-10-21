@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slider Mathces snapshot 1`] = `
+"<div style={{...}}>
+  <AliceCarousel items={{...}} buttonsDisabled={true} dotsDisabled={true} onSlideChanged={[Function]} slideToIndex={0} responsive={{...}} mouseDragEnabled={true} stagePadding={{...}} duration={250} startIndex={0} autoPlay={false} infinite={true} showSlideInfo={false} swipeDisabled={false} autoPlayInterval={250} fadeOutAnimation={false} playButtonEnabled={false} autoPlayDirection=\\"ltr\\" keysControlDisabled={false} disableAutoPlayOnAction={false} stopAutoPlayOnHover={true} preventEventOnTouchMove={false} autoHeight={false} />
+  <div className=\\"alice-carousel__prev-btn\\">
+    <button className=\\"alice-carousel__prev-btn-wrapper\\" onClick={[Function: onClick]}>
+      <Memo(Icon) color=\\"white\\" name=\\"left-arrow\\" />
+    </button>
+  </div>
+  <div className=\\"alice-carousel__next-btn\\">
+    <button className=\\"alice-carousel__next-btn-wrapper\\" onClick={[Function: onClick]}>
+      <Memo(Icon) color=\\"white\\" name=\\"right-arrow\\" />
+    </button>
+  </div>
+</div>"
+`;

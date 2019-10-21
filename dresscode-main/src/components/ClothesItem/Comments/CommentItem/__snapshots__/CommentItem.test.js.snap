@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommentItem Matches snapshot 1`] = `
+"<div className=\\"comment\\">
+  <div className=\\"comment-details\\">
+    <Link to=\\"/users/19wa28asd182s\\">
+      Bill
+       
+      Loid
+    </Link>
+    <span>
+      20-10-
+    </span>
+  </div>
+  <p>
+    Give me some text
+  </p>
+</div>"
+`;

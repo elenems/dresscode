@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextInput Matches snapshot 1`] = `
+"<div className=\\"input-container\\">
+  <label htmlFor=\\"title\\">
+    title
+  </label>
+  <input style={{...}} onChange={[Function: handleChange]} id=\\"title\\" type=\\"text\\" value=\\"\\" placeholder=\\"title\\" />
+</div>"
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostComments Matches snapshot 1`] = `
+"<div>
+  <span className=\\"label-style\\">
+    Add a coment
+  </span>
+  <div className=\\"post-comment-form\\">
+    <textarea onChange={[undefined]} value={[undefined]} />
+    <button className=\\"primary-button\\" onClick={[undefined]}>
+      Add a comment
+    </button>
+  </div>
+</div>"
+`;

@@ -10,7 +10,7 @@ export default class ItemsList extends Component {
 
   componentDidMount() {
     const { limit, fetchLink } = this.props;
-    axios
+    return axios
       .get(`${fetchLink}?limit=${limit}`)
       .then(data => {
         this.setState({ items: data.data.items });

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Matches snapshot 1`] = `
+"<div className=\\"card\\">
+  <Link to=\\"link\\">
+    <div className=\\"card__card-content\\">
+      <Memo(Icon) name=\\"name\\" color=\\"black\\" />
+      <div>
+        <p />
+        <span className=\\"card__link\\" />
+      </div>
+    </div>
+  </Link>
+</div>"
+`;

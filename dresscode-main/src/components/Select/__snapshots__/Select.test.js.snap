@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select Matches snapshot 1`] = `
+"<div className=\\"select\\">
+  <span className=\\"label-style\\">
+    condition
+  </span>
+  <StateManager value=\\"new\\" onChange={[Function: handleChange]} options={{...}} defaultInputValue=\\"\\" defaultMenuIsOpen={false} defaultValue={{...}} />
+</div>"
+`;
