@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SellItem Matches snapshot 1`] = `
+"<div className=\\"sell-item-block row\\">
+  <div className=\\"module\\">
+    <h1 className=\\"text-center\\">
+      Add a new listing
+    </h1>
+    <form id=\\"sell-form\\" className=\\"sell-form\\">
+      <Memo(TextInput) handleChange={[Function]} value=\\"\\" place=\\"Clothes title\\" name=\\"Title\\" type=\\"text\\" error=\\"\\" />
+      <Memo(TextInput) handleChange={[Function]} value=\\"\\" place=\\"Enter clothes brand\\" name=\\"Brand\\" type=\\"text\\" error=\\"\\" />
+      <Memo(TextInput) handleChange={[Function]} value=\\"0\\" place=\\"Enter price $\\" name=\\"Price\\" type=\\"text\\" error=\\"\\" />
+      <Memo(TextInput) handleChange={[Function]} value=\\"\\" place=\\"Enter size\\" name=\\"Size\\" type=\\"text\\" error=\\"\\" />
+      <div className=\\"input-container\\">
+        <Memo(Select) label=\\"Clothes condition\\" value={{...}} handleChange={[Function]} options={{...}} />
+      </div>
+      <div className=\\"input-container\\">
+        <Memo(Select) label=\\"Choose a category\\" value={{...}} handleChange={[Function]} options={{...}} />
+      </div>
+      <div className=\\"input-container\\">
+        <textarea onChange={[Function]} value=\\"\\" id=\\"Description\\" placeholder=\\"Description\\" />
+      </div>
+      <div className=\\"input-container\\">
+        <span className=\\"label\\">
+          Choose a photo
+        </span>
+        <input type=\\"file\\" name=\\"file\\" onChange={[Function]} />
+        <p style={{...}} />
+      </div>
+      <button onClick={[Function]} className=\\"primary-button primary-button--big\\">
+        Add
+      </button>
+    </form>
+  </div>
+</div>"
+`;

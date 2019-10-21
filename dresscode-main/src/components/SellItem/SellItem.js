@@ -70,7 +70,7 @@ class SellItem extends Component {
         this.setState({ fileMessage: "File to big" });
       } else if (
         this.state.selectedFile.type === "image/jpeg" ||
-        this.state.selectedFile === "image/png"
+        this.state.selectedFile.type === "image/png"
       ) {
         const data = new FormData();
         data.append("file", this.state.selectedFile);
@@ -88,7 +88,7 @@ class SellItem extends Component {
         }&size=${Size}&brand=${Brand}&description=${Description}&price=${Price}&condition=${
           Condition.value
         }&category=${Category.value}`;
-        axios
+        return axios
           .post(link, data)
           .then(data => {
             window.scrollTo({

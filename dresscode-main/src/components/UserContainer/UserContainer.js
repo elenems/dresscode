@@ -6,7 +6,7 @@ import ClothesItem from "../ItemsList/ListItem/ListItem";
 import WriteMessageContainer from "../WriteMessageContainer/WriteMessageContainer";
 import PropTypes from "prop-types";
 
-class UserContainer extends Component {
+export class UserContainer extends Component {
   state = {
     user: null,
     message: "",
